@@ -1,0 +1,53 @@
+.pdf-guide-page {
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #b8baff 100%);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .pdf-guide-page h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .pdf-guide-page p {
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .pdf-guides-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .pdf-guide-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .pdf-guide-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .pdf-guide-card a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .pdf-guide-card a:hover {
+    color: #0056b3;
+  }

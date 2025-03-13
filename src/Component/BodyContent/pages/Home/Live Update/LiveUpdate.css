@@ -1,0 +1,61 @@
+.live-update-page {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.371);
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.live-update-page h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.live-update-page p {
+  color: black;
+  font-size: 16px;
+}
+
+.live-update-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.add-live-update-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.add-live-update-form h3 {
+  margin-bottom: 10px;
+}
+
+.add-live-update-form input,
+.add-live-update-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-live-update-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-live-update-form button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,62 @@
+/* Container for the entire page */
+.sports-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: flex-start; 
+  height: 100vh; 
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.371);
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+/* Title and Description Section */
+.sports-header {
+  text-align: center; 
+  margin-bottom: 30px; 
+}
+
+.sports-title {
+  font-size: 50px; /* Large title font */
+  color: white; /* Title color */
+  margin-bottom: 10px;
+}
+
+.sports-description {
+  font-size: 18px;
+  color: #d3d3d3; /* Light gray for description */
+  line-height: 1.6; /* Add spacing between lines */
+  margin: 5px 0;
+}
+
+/* Buttons Section */
+.sports-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns for buttons */
+  gap: 20px;
+  width: 78%; /* Center the grid with limited width */
+  padding-top: 20px;
+    
+}
+
+.grid-item {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.grid-item:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}

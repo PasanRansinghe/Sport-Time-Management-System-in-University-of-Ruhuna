@@ -1,0 +1,18 @@
+.menu-link {
+  display: block;
+  background-color: white;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px; /* Adjust the spacing as needed */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.menu-link:hover {
+  background-color: #f0f0f0;
+}

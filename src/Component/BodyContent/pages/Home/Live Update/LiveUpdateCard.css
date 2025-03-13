@@ -1,0 +1,71 @@
+.live-update-card {
+  padding: 20px;
+  background: linear-gradient(135deg, #2e2a9dbf 0%, #040314d7 100%);
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: #fff;
+  position: relative; /* Required for positioning the delete button */
+  height: 145px;
+}
+
+.live-update-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.live-update-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.live-update-card h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.live-update-card .live-update-time {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.live-update-card .live-update-description {
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.live-update-card .read-more {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.live-update-card .read-more:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Style for the delete button */
+.delete-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545; /* Red color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+

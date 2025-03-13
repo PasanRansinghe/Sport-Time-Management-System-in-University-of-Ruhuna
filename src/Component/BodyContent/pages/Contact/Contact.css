@@ -1,0 +1,122 @@
+
+.contact-content {
+  text-align: center;
+  padding: 30px;
+  background:  rgba(0, 0, 0, 0.371);
+  border-radius: 10px;
+  margin: 20px;
+  height: 650px;
+}
+
+.contact-title {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact-description {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* Contact Grid */
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  width: 300px;
+  text-align: center;
+  background: linear-gradient(135deg, #ffffff 0%, #b8baff 100%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);;
+}
+
+.contact-item h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.contact-item a {
+  color: #4a4aef;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media */
+.contact-social-text {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons a:hover {
+  color: #4a4aef;
+}
+
+.social-icon {
+  font-size: 20px;
+}
+
+/* Icons */
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #4a4aef;
+}
+
+.email-icon::before {
+  content: '✉'; /* Email Icon */
+}
+
+.phone-icon::before {
+  content: '📞'; /* Phone Icon */
+}
+
+.address-icon::before {
+  content: '📍'; /* Address Icon */
+}
+
+.facebook-icon::before {
+  content: '📘'; /* Facebook Icon */
+}
+
+.youtube-icon::before {
+  content: '▶'; /* YouTube Icon */
+}
+
+.linkedin-icon::before {
+  content: '💼'; /* LinkedIn Icon */
+}

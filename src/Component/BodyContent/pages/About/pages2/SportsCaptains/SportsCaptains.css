@@ -1,0 +1,49 @@
+.sports-captains-page {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .sports-captains-page h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .captains-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .captain-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .captain-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .captain-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .captain-card a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .captain-card a:hover {
+    color: #0056b3;
+  }

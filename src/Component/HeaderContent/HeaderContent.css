@@ -1,0 +1,98 @@
+
+/* Navigation Container */
+#navcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: linear-gradient(135deg, #304faa, #070a2a); /* Modern Gradient */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 110px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 70px; 
+  height: auto;
+}
+
+.logo-text {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Menu Links */
+.menu-links {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.menu-links a, .right-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.1); 
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.menu-links a:hover, .right-links a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: white;
+  color: #ffeb3b;
+}
+
+/* Right Section (Login & Signup) */
+.right-links {
+  display: flex;
+  gap: 20px;
+}
+
+.right-links a {
+  background: #ffcc00;
+  color: #1a237e;
+  font-weight: bold;
+  border: none;
+}
+
+.right-links a:hover {
+  background: #fff;
+  color: #ffcc00;
+  border: 2px solid #ffcc00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #navcontent {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 15px;
+  }
+
+  .menu-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .right-links {
+    margin-top: 10px;
+  }
+}
+
+
+.welcome-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e4e40b; /* Change this color as needed */
+}
